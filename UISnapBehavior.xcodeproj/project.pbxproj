@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731DE70A1DC846B000486F54 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 731DE7091DC846B000486F54 /* ok.png */; };
+		731DE70C1DC846B400486F54 /* cancel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 731DE70B1DC846B400486F54 /* cancel.jpeg */; };
 		73CC2AB61DC208610001C3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC2AB51DC208610001C3E6 /* AppDelegate.swift */; };
 		73CC2AB81DC208610001C3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CC2AB71DC208610001C3E6 /* ViewController.swift */; };
 		73CC2ABB1DC208610001C3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CC2AB91DC208610001C3E6 /* Main.storyboard */; };
 		73CC2ABD1DC208610001C3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CC2ABC1DC208610001C3E6 /* Assets.xcassets */; };
 		73CC2AC01DC208610001C3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CC2ABE1DC208610001C3E6 /* LaunchScreen.storyboard */; };
+		73FD664A1DC3376000EE7387 /* Dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FD66491DC3376000EE7387 /* Dismiss.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		731DE7091DC846B000486F54 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok.png; path = ../../../../../Users/pirate/Desktop/ok.png; sourceTree = "<group>"; };
+		731DE70B1DC846B400486F54 /* cancel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancel.jpeg; path = ../../../../../Users/pirate/Desktop/cancel.jpeg; sourceTree = "<group>"; };
 		73CC2AB21DC208610001C3E6 /* UISnapBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISnapBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CC2AB51DC208610001C3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73CC2AB71DC208610001C3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		73CC2ABC1DC208610001C3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73CC2ABF1DC208610001C3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73CC2AC11DC208610001C3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FD66491DC3376000EE7387 /* Dismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dismiss.png; path = ../../../../../Users/pirate/Downloads/DynamicsKit_UngDungAlert/ThrowTheBall/Dismiss.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		73CC2AB41DC208610001C3E6 /* UISnapBehavior */ = {
 			isa = PBXGroup;
 			children = (
+				731DE7091DC846B000486F54 /* ok.png */,
+				73FD66491DC3376000EE7387 /* Dismiss.png */,
+				731DE70B1DC846B400486F54 /* cancel.jpeg */,
 				73CC2AB51DC208610001C3E6 /* AppDelegate.swift */,
 				73CC2AB71DC208610001C3E6 /* ViewController.swift */,
 				73CC2AB91DC208610001C3E6 /* Main.storyboard */,
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731DE70A1DC846B000486F54 /* ok.png in Resources */,
 				73CC2AC01DC208610001C3E6 /* LaunchScreen.storyboard in Resources */,
 				73CC2ABD1DC208610001C3E6 /* Assets.xcassets in Resources */,
+				73FD664A1DC3376000EE7387 /* Dismiss.png in Resources */,
 				73CC2ABB1DC208610001C3E6 /* Main.storyboard in Resources */,
+				731DE70C1DC846B400486F54 /* cancel.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				73CC2AC61DC208610001C3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
